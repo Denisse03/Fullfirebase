@@ -1,0 +1,64 @@
+#app {
+  padding: 50px;
+  display: flex;
+
+  .home {
+    width: 50%;
+    height: 100%;
+
+    label,
+    input {
+      display: block;
+    }
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    input {
+      margin-bottom: 40px;
+      height: 40px;
+      width: 95%;
+      padding-left: 10px;
+      border-radius: 10px;
+    }
+  }
+
+  .profile {
+    width: 50%;
+    height: 100%;
+
+    .profileImage {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .showCamps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .camp {
+      width: 400px;
+      margin-right: 50px;
+
+      .campImg {
+        width: 50%;
+        height: 50%;
+        overflow: hidden;
+
+        img {
+          width: 50%;
+          height: 50%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">home</a>
+      <a href="#">about</a>
+      <a href="#" id="camps">camps</a>
+      <a href="#" id="show">show profile</a>
+      <a href="#" id="signout">sign out</a>
+    </nav>
+
+    <div id="app">
+      <div class="home">
+        <h1>Sign Up</h1>
+        <label for="fName">First Name</label>
+        <input type="text" id="fName" placeholder="First Name..." />
+
+        <label for="lName">Last Name</label>
+        <input type="text" id="lName" placeholder="Last Name..." />
+
+        <label for="imageURL">Image URL</label>
+        <input type="text" id="imageURL" placeholder="Image URL..." />
+
+        <label for="email">Email Address</label>
+        <input type="text" id="email" placeholder="Email Address..." />
+
+        <label for="fName">Password</label>
+        <input type="text" id="password" placeholder="Password..." />
+
+        <input type="submit" id="submit" value="Sign Up" />
+      </div>
+
+      <div class="profile">
+        <h1>This is my profile</h1>
+        <p class="displayName"></p>
+        <div class="profileImage"></div>
+      </div>
+    </div>
+
+    <div class="sn">
+      <h1>Sign In</h1>
+
+      <label for="email">Email Address</label>
+      <input type="text" id="sEmail" placeholder="Email Address..." />
+
+      <label for="fName">Password</label>
+      <input type="text" id="sPassword" placeholder="Password..." />
+
+      <input type="submit" id="signInBtn" value="Sign In" />
+    </div>
+
+    <div class="addCampground">
+      <h1>Add Campground</h1>
+      <label for="campName">Campground Name:</label>
+      <input type="text" id="campName" placeholder="Campground Name..." />
+
+      <label for="campImage">Campground Image:</label>
+      <input type="text" id="campImage" placeholder="Campground Image..." />
+
+      <label for="campImage">Campground Price:</label>
+      <input type="text" id="campPrice" placeholder="Campground Price..." />
+
+      <label for="campDescription">Campground Description:</label>
+      <input
+        type="text"
+        id="campDescription"
+        placeholder="Campground Description..."
+      />
+
+      <input type="submit" id="addCampground" value="Add Campground" />
+    </div>
+
+    <div class="showCamps"></div>
+
+    <script src="app/index.js"></script>
+  </body>
+</html>

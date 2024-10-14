@@ -1,0 +1,88 @@
+nav {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#app {
+  padding: 50px;
+  display: flex;
+}
+#app .home {
+  width: 50%;
+  height: 100%;
+}
+#app .home label,
+#app .home input {
+  display: block;
+}
+#app .home label {
+  margin-bottom: 10px;
+}
+#app .home input {
+  margin-bottom: 40px;
+  height: 40px;
+  width: 95%;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+#app .profile {
+  width: 50%;
+  height: 100%;
+}
+#app .profile .profileImage {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#app .profile .profileImage img {
+  width: 100%;
+}
+#app .showCamps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#app .showCamps .camp {
+  width: 400px;
+  margin-right: 50px;
+}
+#app .showCamps .camp .campImg {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+#app .showCamps .camp .campImg img {
+  width: 50%;
+  height: 50%;
+}
+
+.addCampground {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.addCampground label,
+.addCampground input {
+  display: block;
+}
+.addCampground label {
+  margin-bottom: 10px;
+}
+.addCampground input {
+  margin-bottom: 40px;
+  height: 40px;
+  width: 95%;
+  border-radius: 5px;
+  padding-left: 10px;
+}
